@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialDivision.ConsoleUI", "PolynomialDivision.ConsoleUI\PolynomialDivision.ConsoleUI.csproj", "{A8B0224B-FB18-4F84-AF69-64B77AA97FCC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{469DDD68-6187-447E-B0D6-5FFE508655BC} = {469DDD68-6187-447E-B0D6-5FFE508655BC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialDivision.Service", "PolynomialDivision.Service\PolynomialDivision.Service.csproj", "{377A278F-0766-4165-BBBF-2DABAF614B8B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{469DDD68-6187-447E-B0D6-5FFE508655BC} = {469DDD68-6187-447E-B0D6-5FFE508655BC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialDivision.Test", "PolynomialDivision.Test\PolynomialDivision.Test.csproj", "{F6B315F3-5728-4273-A64C-EB010B56900D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{469DDD68-6187-447E-B0D6-5FFE508655BC} = {469DDD68-6187-447E-B0D6-5FFE508655BC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomialDivision.Resources", "PolynomialDivision.Resources\PolynomialDivision.Resources.csproj", "{469DDD68-6187-447E-B0D6-5FFE508655BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B0224B-FB18-4F84-AF69-64B77AA97FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B0224B-FB18-4F84-AF69-64B77AA97FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B0224B-FB18-4F84-AF69-64B77AA97FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B0224B-FB18-4F84-AF69-64B77AA97FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{377A278F-0766-4165-BBBF-2DABAF614B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{377A278F-0766-4165-BBBF-2DABAF614B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{377A278F-0766-4165-BBBF-2DABAF614B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{377A278F-0766-4165-BBBF-2DABAF614B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B315F3-5728-4273-A64C-EB010B56900D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B315F3-5728-4273-A64C-EB010B56900D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B315F3-5728-4273-A64C-EB010B56900D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B315F3-5728-4273-A64C-EB010B56900D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469DDD68-6187-447E-B0D6-5FFE508655BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469DDD68-6187-447E-B0D6-5FFE508655BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469DDD68-6187-447E-B0D6-5FFE508655BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469DDD68-6187-447E-B0D6-5FFE508655BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68A50BD4-11E6-4D05-B690-D2DA4B2DA2BC}
+	EndGlobalSection
+EndGlobal
